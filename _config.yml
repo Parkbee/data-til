@@ -1,6 +1,6 @@
 # Site settings
 title: "Today We Learned at ParkBee Data Team"
-description: "Things we learned."
+description: "Things we learned and made a note of."
 baseurl: "/data-til" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
 author: "ParkBee Data Team"
