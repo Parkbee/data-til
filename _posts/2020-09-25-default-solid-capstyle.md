@@ -7,7 +7,7 @@ comment: false
 ---
 
 Today I needed to plot "parking action timelines" for a project.
-Here is a simplified version of what I wanted to get, an 8 hour parking action from exactly 10:00 to 18:00:
+Here is a simplified version of what I wanted to get, a parking action from exactly 06:00 to 18:00:
 
 ![](/data-til/assets/images/solid_capstyle_final.png)
 
