@@ -1,0 +1,21 @@
+# Site settings
+title: "Today We Learned at ParkBee Data Team"
+description: "Things we learned."
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+url: ""
+author: "ParkBee Data Team"
+
+# Build settings
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Third-party services
+# just leave empty to disable it
+google_analytics:
+disqus_shortname: 
+
+plugins:
+  - jekyll-sitemap
+
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
