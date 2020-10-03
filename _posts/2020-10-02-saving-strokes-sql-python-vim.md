@@ -33,7 +33,7 @@ Here's a (probably poorly written) key mapping for `vscodevim` that surrounds th
     ...
     "vim.normalModeKeyBindings": [
         {
-            "before": ["b", "b"],
+            "before": ["<C-j>"],
             "after": ["v", "a", "w", "S", ")", "i", "%", "<Esc>", "f", ")", "a", "s", "<Esc>"]
         }
     ],
@@ -43,4 +43,4 @@ Here's a (probably poorly written) key mapping for `vscodevim` that surrounds th
 There are a few potential gotchas:
 
 - This won't work for single characters.
-- I'm not sure if `bb` is the best key stroke to map this onto.
+- I'm not sure if `Ctrl + j` is the best key stroke to map this onto.
