@@ -14,7 +14,7 @@ A bit of background here - instead of building separate click triggers or use re
 (doesn’t track buttons dynamically anyways), we can use `CSS Selectors` in GTM which can be a very powerful matching option while setting up the GTM triggers. 
 However it can get really cumbersome to set up. 
 
-## Solution 
+## Solution
 
 Instead here is a one-line JavaScript command that would allow testing the CSS Selectors beforehand. 
 
