@@ -26,13 +26,13 @@ pip install pandas-profiling
 
 To generate the report: 
 ```
-import pandas_profiling
-df.profile_report()
+from pandas_profiling import ProfileReport
+profile = ProfileReport(df, title="Profiling Report")
 ```
 
 Save HTML 
 ```
-df.profile_report().to_file(output_file='output.html')
+profile.to_file('Profiling Report.html')
 ```
 
 ### What I've Liked  
