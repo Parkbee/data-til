@@ -48,5 +48,5 @@ The bigger the size of the data, the longer it takes to generate the report. A r
 that was introduced in 2.4 of pandas profiling. With the minimum mode a simplified report will be generated with less information. 
 
 ```
-top_garages_categories.profile_report(minimal = True)
+df.profile_report(minimal = True)
 ```
