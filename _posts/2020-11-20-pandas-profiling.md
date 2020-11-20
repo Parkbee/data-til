@@ -27,8 +27,6 @@ pip install pandas-profiling
 To generate the report: 
 ```
 import pandas_profiling
-```
-```
 df.profile_report()
 ```
 
@@ -39,13 +37,13 @@ df.profile_report().to_file(output_file='output.html')
 
 ### What I've Liked  
 
-Warnings - shows the variables that contain NaN values, variables with many zeros, categorical variables with high cardinality etc. 
+##### Warnings - shows the variables that contain NaN values, variables with many zeros, categorical variables with high cardinality etc. 
 ![](/data-til/assets/images/Warnings.png)
 
-Variables -  shows all the Numerical and Categorical columns with complete statistic information 
+##### Variables -  shows all the Numerical and Categorical columns with complete statistic information 
 ![](/data-til/assets/images/variables.png)
 
-Visualisations - we can get built-in histograms, or could get a Scatter Plot between two numerical variables you choose 
+##### Visualisations - we can get built-in histograms, or could get a Scatter Plot between two numerical variables you choose 
 ![](/data-til/assets/images/visualisation.png)
 
 ### Limitation
