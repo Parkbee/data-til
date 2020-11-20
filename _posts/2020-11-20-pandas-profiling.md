@@ -9,7 +9,7 @@ comment: false
 ### Background  
 
 I have been doing some research on Pandas tips and tricks to see if I can speed up my analysis and improve my code. 
-I came across a [GitHub page](https://github.com/pandas-profiling/pandas-profiling) about Pandas Profiling that could be used for quick, high level exploratory data analysis 
+I came across a [GitHub page](https://github.com/pandas-profiling/pandas-profiling) about `Pandas Profiling` that could be used for quick, high level exploratory data analysis 
 which requires only a with a few lines of code. 
 
 When in need of producing basic summary statistics, Pandas has the .describe() attribute which is pretty limited and basic 
